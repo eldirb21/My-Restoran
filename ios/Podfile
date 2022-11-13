@@ -23,6 +23,8 @@ target 'Restorans' do
 
   pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'RestoransTests' do
     inherit! :complete
     # Pods for testing

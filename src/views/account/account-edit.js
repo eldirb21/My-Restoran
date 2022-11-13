@@ -25,7 +25,7 @@ export default function AccountEdit({route}) {
   };
   return (
     <Containers barColor="#FFF" isFocused={useIsFocused()}>
-      <AppBar title="Edit Profile" />
+      <AppBar isGoBack title="Edit Profile" />
       <ScrollView>
         <View style={{flex: 1}}>
           <View

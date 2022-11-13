@@ -85,7 +85,7 @@ export default function Account({navigation}) {
           </Texts>
           <Texts>{user.loyalty}</Texts>
         </View>
-        <View style={{height: '100%', width: 0.3, backgroundColor: 'grey'}} />
+        <View style={{height: '100%', width: 1, backgroundColor: 'grey'}} />
         <View style={{flex: 1, alignItems: 'flex-end'}}>
           <Texts textStyles={{marginBottom: 8, color: '#D47A08'}}>Points</Texts>
           <Texts>{user.points}</Texts>
